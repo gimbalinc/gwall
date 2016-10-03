@@ -20,6 +20,7 @@ The Gimbal Beacon is configured with one or two attributes (details below) that 
 * [Create a Place](https://manager.gimbal.com/places/new) with a Gimbal Beacon and add an attribute key **gwall.url** with value pointing to a URL that you want your display to render
   * You can optionally add a **gwall.default** attribute key with a value pointing to a URL you want to display when you depart this beacon
   * You can optionally define fine tuned RSSI values for your place so the beacon detection will not happen until you are very close to the display
+
 ### Mobile Device
 * Clone this project
 * Run **pod install** to retrieve the Gimbal SDK dependency
@@ -35,8 +36,10 @@ $ open GWall.xcworkspace
 static let GIMBAL_API_KEY = "YOUR_GIMBAL_API_KEY_HERE"
 ```
 * Run the application on your mobile
+
 ### Display Device - iOS
 * Follow the above steps and choose the **Display** option in the tab bar when the application launces
+
 ### Display Device - OSX
 * Clone the companion application **GWall Display**
 * Run the applicaiton on your OSX device
