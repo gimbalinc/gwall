@@ -13,7 +13,7 @@ The mobile device is an iOS device running this GWall application. The proximity
 The display device is either an iOS device or OSX device running either the GWall application (in display mode) or GWall Display (OSX) application. This device simply displays a URL and can be connected to a larger display for demonstration purposes.
 ### Gimbal Beacon
 The Gimbal Beacon is configured with one or two attributes (details below) that drive the content displayed on the display device when the mobile device is proximate to it.
-## How do I get set it up?
+## How do I set it up?
 ### Gimbal Manager
 * Log into [Gimbal Manager](https://manager.gimbal.com)
 * [Create an Application with](https://manager.gimbal.com/apps/new) the bundle ID: **com.gimbal.GWall**
