@@ -10,7 +10,7 @@ The diagram below shows the callflow between the three components and the Gimbal
 ### Mobile Device
 The mobile device is an iOS device running this GWall application. The proximity of this device to the Gimbal Beacon will drive what is displayed on the display device.
 ### Display Device
-The display device is either an iOS device or OSX device running either the GWall application (in display mode) or GWall Display (OSX) application. This device simply displays a URL and can be connected to a larger display for demonstration purposes.
+The display device is either an iOS device or OSX device running either the GWall application (in display mode) or [GWall Display](https://github.com/gimbalinc/gwall-display) (OSX) application. This device simply displays a URL and can be connected to a larger display for demonstration purposes.
 ### Gimbal Beacon
 The Gimbal Beacon is configured with one or two attributes (details below) that drive the content displayed on the display device when the mobile device is proximate to it.
 ## How do I set it up?
@@ -41,5 +41,5 @@ static let GIMBAL_API_KEY = "YOUR_GIMBAL_API_KEY_HERE"
 * Follow the above steps and choose the **Display** option in the tab bar when the application launces
 
 ### Display Device - OSX
-* Clone the companion application **GWall Display**
+* Clone the companion application [GWall Display](https://github.com/gimbalinc/gwall-display)
 * Run the applicaiton on your OSX device
