@@ -29,6 +29,10 @@
 	</dict>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Cool Stuff Coming Your Way</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Cool Stuff Coming Your Way</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Cool Stuff Coming Your Way</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
